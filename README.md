@@ -8,3 +8,5 @@ Guide:
 Put battle1.j2l and Castle1.j2t into the server's folder, run index.py
 
 UNFINISHED AND WONT WORK STILL
+
+(by the way thanks [bswck](https://github.com/bswck))
