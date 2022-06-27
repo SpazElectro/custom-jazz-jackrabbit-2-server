@@ -21,7 +21,7 @@ def start():
 
         serverDetails = gameplay.ServerDetails()
         serverDetails.struct.client_id = players.__len__()
-        serverDetails.struct.player_id = players.__len__()
+        serverDetails.struct.player_id = players.__len__() + 1
         serverDetails.struct.level_filename = "battle1"
         serverDetails.struct.level_crc = 1
         serverDetails.struct.tileset_crc = 1
@@ -33,8 +33,7 @@ def start():
 
         players.append(addr)
 
-        bytes_serverDetails = bytes(serverDetails._deserialize(data, None), "utf-8")
-
+        bytes_serverDetails = bytes(serverDetails.data().__str__(), "utf-8")
         s.sendto(bytes_serverDetails, addr)
 
         print(str(data) + " | " + str(addr))

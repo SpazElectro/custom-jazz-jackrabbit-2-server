@@ -66,12 +66,16 @@ class Vector2():
     def __str__(self):
         return str(self.x) + ", " + str(self.y)
 
+# not so sure about this fur class's property names
+
 class Fur():
     def __init__(self, r, g, b, alpha):
         self.r = r
         self.g = g
         self.b = b
         self.alpha = alpha
+
+# this is unfinished
 
 class Player():
     def __init__(self, name: string, team: Team, spectating: bool, socketId: int, fur: Fur, character: Character):
