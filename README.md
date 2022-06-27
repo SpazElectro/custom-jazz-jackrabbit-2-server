@@ -1,1 +1,10 @@
-jj2 lib is from bswck/jj2 (thank you again for this lib)
+Requirements:
+
+[jj2 lib](https://github.com/bswck/jj2) by [bswck](https://github.com/bswck)
+
+[Jazz Jackrabbit 2](https://www.gog.com/en/game/jazz_jackrabbit_2_collection)
+
+Guide:
+Put battle1.j2l and Castle1.j2t into the server's folder, run main.py
+
+UNFINISHED AND WONT WORK STILL
