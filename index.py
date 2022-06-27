@@ -1,5 +1,5 @@
 import tcpserver, udpserver
 import threading
 
-threading.Thread(target=udpserver.start).run()
-threading.Thread(target=tcpserver.start).run()
+threading.Thread(target=udpserver.start).start()
+threading.Thread(target=tcpserver.start).start()
